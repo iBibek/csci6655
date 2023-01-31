@@ -123,7 +123,7 @@ The current version of AEO is 0.0.4. We will be working
 ## Technical Details ## 
 
 
-### Dependencies ###
+### Dependencies 
 ```
 - python 3.7 
 - ontospy 2.1.1
@@ -132,7 +132,7 @@ The current version of AEO is 0.0.4. We will be working
 
 ```
 
-### Installation ###
+### Installation 
 
 1. Run ``` pip install -r requirements.txt ``` . 
 Warning:  Be aware that Jupyter Notebook may break in Anaconda
@@ -146,6 +146,6 @@ Warning:  Be aware that Jupyter Notebook may break in Anaconda
 2. Run `python code/owl_generator.py ontology`
 3. Run `ontospy gendocs ae_ontology.ttl`
 
-### how to generate docs ? ###
+### How to generate HTML docs ? ###
 1. Generate single owl file from folder `code` and then run `python owl_generator.py ../ontology`
 2. Generate docs via gendocs. `ontospy gendocs code/ae_ontology.owl` Warning: Do not generate in working directory this will break `.git/HEAD`

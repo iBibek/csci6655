@@ -94,3 +94,5 @@
   ├── engage:honeypotInteractionType
   ├── objective:hasObjective
 ```
+# Technical Detail # 
+

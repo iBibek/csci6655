@@ -1,9 +1,11 @@
-# Adversary Engagement Ontology 
+# Adversary Engagement Ontology #
 
 - - - - 
-# Heading 1 #
+## Objective ##
 
+## Scope ##
 
+## Approach ##
  ```
   ├── engage:Event
   ├── objective:Denial

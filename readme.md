@@ -26,7 +26,7 @@ In this case, we may depreciate the existing classes and can add more, which wil
 AEO is detined as an application domain ontolog within the Linux Foundation Cyber Domain OntoloR project and conformant with the Unitied cyber Ontology ecosystem.
 
 ## Status ##
-The current version of AEO is 0.0.4. We will be working
+The current version of AEO is 0.0.4. This is an initial draft and not complete. We will be making changes in future by adding new concepts and depreciating the current concepts based on the community suggestions. If you would like to contribute we highly encourage you to join our community. You can get more details [here](https://aeontology.sail-lab.org/)
 
 
 
@@ -35,7 +35,7 @@ The current version of AEO is 0.0.4. We will be working
 # Overview #
 
 ## Diagram ##
-
+![alt text](https://github.com/UNHSAILLab/ae_ontology/blob/main/ae_diagram.PNG?raw=true)
 
 ## Classes Tree ##
  ```

@@ -1,4 +1,6 @@
-  ```
+# Adversary Engagement
+
+ ```
   ├── engage:Event
   ├── objective:Denial
   │    ├── objective:Trap

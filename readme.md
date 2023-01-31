@@ -1,12 +1,28 @@
-# Adversary Engagement Ontology #
+# Adversary Engagement Ontology (AEO)#
+
+>*"Adversary engagement is the combination of denial and
+deception to increase the cost and decrease the value of your
+adversary’s cyber operations. Adversary engagement goals can
+be any combination of the following: to detect adversaries on
+the network, to elicit intelligence to learn about adversaries,
+or to affect adversaries by raising the cost and lowering the
+value of their cyber operations - (MITRE Engage)"*
+
+Adversary Engagement Ontology is the subontology of Unified Cyber Ontology that aims to define and standardize the information representation of the adversary engagement in cyber domain. 
 
 - - - - 
 ## Objective ##
+1.  To create a cyber adversary engagement subontology uder the UCO that  builds upon the concepts in MITRE’s open-source ENGAGE knowledge model but also seeks to expand into new areas of cyber adversary engagement between smart agents and the broad use of decoy and obfuscated data. 
+2.  To establish a community of participants, with members from academia, government, non-profit, and for-profit organizations that participate in the engineering, adoption, and general support of the AE subontology
 
 ## Scope ##
 
-## Approach ##
 
+## Approach ##
+Adversary Engagement Ontology is a sub-ontology of the Unified Cyber Ontology (UCO. How the ontology is defined with an application space in CDO and why?
+
+## Status ##
+AEO is an initial draft and is not complete. We will be revising and making changes in the structure in upcoming days and many of the concept might be depreciated in future. If you wish to contribute, we highly encourage you to  join our community. Please visit aeo.sail-lab.org 
 
 # Overview #
 

@@ -6,6 +6,14 @@
 ## Scope ##
 
 ## Approach ##
+
+
+# Overview #
+
+## Diagram ##
+
+
+## Classes Tree ##
  ```
   ├── engage:Event
   ├── objective:Denial
@@ -74,4 +82,15 @@
   ├── uco-identity:Organization
   │    ├── role:Team
   ├── vocabulary:HoneypotInteractionTypeVocab
+```
+
+## Properties Tree ##
+```
+  ├── engage:alertContext
+  ├── engage:eventContext
+  ├── engage:hasCharacterization
+  ├── engage:hasEvent
+  ├── engage:hasStoryline
+  ├── engage:honeypotInteractionType
+  ├── objective:hasObjective
 ```

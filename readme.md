@@ -1,4 +1,4 @@
-# Adversary Engagement Ontology (AEO)#
+# Adversary Engagement Ontology (AEO) #
 
 >*"Adversary engagement is the combination of denial and
 deception to increase the cost and decrease the value of your

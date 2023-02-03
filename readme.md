@@ -1,32 +1,26 @@
 # Adversary Engagement Ontology (AEO) #
 
->*"Adversary engagement is the combination of denial and
-deception to increase the cost and decrease the value of your
-adversary’s cyber operations. Adversary engagement goals can
-be any combination of the following: to detect adversaries on
-the network, to elicit intelligence to learn about adversaries,
-or to affect adversaries by raising the cost and lowering the
-value of their cyber operations - (MITRE Engage)"*
+Adversary Engagement Ontology (AEO) is a sub-ontology of the Unified Cyber Ontology that focuses on defining and standardizing the information representation of adversary engagement in the cyber domain. Adversary engagement is the strategic use of denial and deception tactics aimed at increasing the cost and decreasing the value of an adversary's cyber operations ([MITRE ENGAGE](https://engage.mitre.org/)). The goals of adversary engagement can include detecting adversaries on a network, eliciting intelligence about them, or affecting them by raising the cost and lowering the value of their cyber operations.
 
-Adversary Engagement Ontology is the subontology of Unified Cyber Ontology that aims to define and standardize the information representation of the adversary engagement in cyber domain. AEO also aims to standardize and simply documentation and transmission of deployment configuration of cyber adversary engagement tools and techniques.  
+AEO aims to standardize and simplify the documentation and transmission of the deployment configuration of cyber adversary engagement tools and techniques. This helps to ensure a consistent and efficient approach to adversary engagement across different organizations and domains. The standardization provided by AEO enables better collaboration and sharing of information among stakeholders, leading to more effective adversary engagement.
 
 
 ## Objective ##
 
-1.  To create a cyber adversary engagement subontology uder the UCO that  builds upon the concepts in MITRE’s open-source ENGAGE knowledge model but also seeks to expand into new areas of cyber adversary engagement between smart agents and the broad use of decoy and obfuscated data. 
-2.  To establish a community of participants, with members from academia, government, non-profit, and for-profit organizations that participate in the engineering, adoption, and general support of the AE subontology
+1. The Adversary Engagement Ontology (AEO) aims to establish a sub-ontology within the Unified Cyber Ontology (UCO) that incorporates and expands upon the foundational concepts found in MITRE's open-source ENGAGE and ATTACK knowledge models. The ultimate goal is to advance the field of cyber adversary engagement by exploring new avenues, including the interactions between smart agents and the implementation of decoy and obfuscated data.
+2. The Adversary Engagement Ontology (AEO) endeavors to bring together a diverse and inclusive community of stakeholders, comprising members from academia, government, non-profit, and for-profit organizations, to actively participate in the development, implementation, and sustained support of the Adversary Engagement (AE) sub-ontology.
+
 
 ## Scope ##
-The concepts and objects in the AEO are related to adversary engagement, however many of the contents are shared between CTI ontology and the concepts that may be added in the UCO in future. 
-In this case, we may depreciate the existing classes and can add more, which will break out examples. 
+The Adversary Engagement Ontology (AEO) focuses on the subject matter pertaining to engaging with adversaries. Drawing upon concepts from the Unified Cyber Ontology (UCO), MIRE ATTACK, and MITRE ENGAGE, the AEO selectively incorporates relevant ideas and categories. Additionally, there exist several concepts that overlap with the Cyber Threat Intelligence (CTI) ontology and other domains within cybersecurity. The AEO strives to encompass only those concepts that are directly related to adversary engagement and does not aim to be all-inclusive.
 
 
 ## Approach ##
 
-AEO is detined as an application domain ontolog within the Linux Foundation Cyber Domain OntoloR project and conformant with the Unitied cyber Ontology ecosystem.
+AEO is detined as an application domain ontolog within the Linux Foundation Cyber Domain OntoloR project and conformant with the Unitied cyber Ontology ecosystem. 
 
 ## Status ##
-The current version of AEO is 0.0.4. This is an initial draft and not complete. We will be making changes in future by adding new concepts and depreciating the current concepts based on the community suggestions. If you would like to contribute we highly encourage you to join our community. You can get more details [here](https://aeontology.sail-lab.org/)
+This is the AECO v 1.0.0 . We will be making changes in future by adding new concepts and depreciating the current concepts based on the community suggestions. If you would like to contribute we highly encourage you to join our community. You can get more details [here](https://aeontology.sail-lab.org/)
 
 
 
@@ -34,7 +28,8 @@ The current version of AEO is 0.0.4. This is an initial draft and not complete. 
 
 # Overview #
 
-## Diagram ##
+There are 65 Classes and 7 properties in the AEO. The Classes Tree and Properties Tree are listed below. 
+
 ![alt text](https://github.com/UNHSAILLab/ae_ontology/blob/main/ae_diagram.PNG?raw=true)
 
 ## Classes Tree ##
@@ -119,33 +114,3 @@ The current version of AEO is 0.0.4. This is an initial draft and not complete. 
   ├── objective:hasObjective
 ```
 
-
-## Technical Details ## 
-
-
-### Dependencies 
-```
-- python 3.7 
-- ontospy 2.1.1
-- jinja2 3.1.2
-- UCO 1.0.0
-
-```
-
-### Installation 
-
-1. Run ``` pip install -r requirements.txt ``` . 
-Warning:  Be aware that Jupyter Notebook may break in Anaconda
-
-2. Run ``` pip install --upgrade nbconvert``` 
-3. Run ```pip install mistune==0.8.4```
-
-
-## How to regenerate Adversary Engagement Ontology ? 
-1. Run `python code/gen_ontology.py`
-2. Run `python code/owl_generator.py ontology`
-3. Run `ontospy gendocs ae_ontology.ttl`
-
-### How to generate HTML docs ? ###
-1. Generate single owl file from folder `code` and then run `python owl_generator.py ../ontology`
-2. Generate docs via gendocs. `ontospy gendocs code/ae_ontology.owl` Warning: Do not generate in working directory this will break `.git/HEAD`
